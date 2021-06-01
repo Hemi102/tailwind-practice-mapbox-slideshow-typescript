@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.map {
+	display: block;
+	/* height: calc(100vh - 6.25rem); */
+	height: 535px;
+	/* width: calc(100% - 860px); */
+	position: sticky;
+	top: 100px;
+}
+.bottomMark {
+	position: absolute;
+	bottom: -10px;
+	left: calc(50% - 5.5px);
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 11px 5.5px 0px;
+	border-color: rgb(255, 255, 255) transparent transparent;
+	box-shadow: rgb(0 0 0 / 10%) 0px 10px 15px -3px,
+		rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+}
